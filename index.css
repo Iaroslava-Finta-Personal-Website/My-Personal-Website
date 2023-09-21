@@ -16,7 +16,9 @@
 
 .navitem, .navitem_active{
     padding-right: 30px;
-    color: #9E0005
+    color: #9E0005;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .backimage {
@@ -30,7 +32,7 @@
 .main_page {
     position: absolute;
     text-align: center;
-    top: 90%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -52,9 +54,9 @@
     margin: 5px;
 }
 
-.myphoto{
+.photo{
     width: auto;
-    height: 300px; 
+    height: 315px;
 }
 
 .quote {
