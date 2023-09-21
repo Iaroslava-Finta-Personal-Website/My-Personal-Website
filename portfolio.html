@@ -4,8 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="about_page" href="about.html">
+    <link rel="portfolio_page" href="portfolio.html">
+    <link rel="contact_page" href="contact.html">
+<style>
+    .knowledge_title{
+        color: white;
+        text-align: left;
+        font-size: 3rem;
+    }
+    .knowledge_list{
+        color: white;
+        font-size: 2rem;
+        list-style: none;
+    }
+    .knowledge_list_item{
+        margin: 25px;
+    }
+    .projects_title{
+        color: white;
+        text-align: left;
+        font-size: 3rem;
+    }
+    .projects_list{
+        color: white;
+        font-size: 2rem;
+        list-style: none;
+    }
+    .projects_list_item{
+        margin: 25px
+    }
+    /* style for links */
+    a {
+        color: white;
+        font-size: 2rem
+        font-style: italic;
+    }
+</style>
 </head>
-<body>
-    
-</body>
+<body class="backimage">
+    <main>
+        <section class="top-page">
+            <div class="logo">
+                <a class="logo">Iaroslava Finta</a>
+            </div>
+            <div class="navigation">
+                <a class="navitem" href="./index.html">HOME</a>
+                <a class="navitem" href="./about.html">ABOUT</a>
+                <a class="navitem_active" href="./portfolio.html">PORTFOLIO</a>
+                <a class="navitem" href="./contact.html">CONTACT</a>
+            </div>
+        </section>
+        <section class="knowledge">
+            <div class="knowledge_title">
+                <h2>Skills</h2>
+            </div>
+            <div class="knowledge_more">
+                <ul class="knowledge_list">
+                    <li class="knowledge_list_item">Languages I speak: <br>Java, HTML, CSS, git</li>
+                    <li class="knowledge_list_item">Teamwork and individualwork; Leadership</li>
+                    <li class="knowledge_list_item">Critical thinking; Problem solving</li>
+                    <li class="knowledge_list_item">Time management; Communicaton</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="projects_title">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects_more">
+                <ul class="projects_list">
+                    <li class="projects_list_item">
+                        Program that encrypts messages using Caesar’s cipher
+                        <a href="https://github.com/code50/110079052/tree/main/readability" target="_blank">here</a>
+                    </li>
+                    <li class="projects_list_item">
+                        Zoo Website
+                        <a href="https://github.com/IaroslavaFinta/block05_zoo" target="_blank">here</a>
+                    </li>
+                    <li class="projects_list_item">
+                        Program that prompts the user for the number of cents that a customer is owed and then prints the smallest number of coins with which that change can be made
+                        <a href="https://github.com/code50/110079052/tree/main/cash" target="_blank">here</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+</main>
 </html>
