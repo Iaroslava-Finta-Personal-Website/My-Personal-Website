@@ -1,0 +1,68 @@
+.logo{
+    color: #9E0005;
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 30px;
+}
+
+.navigation {
+    color: #9E0005;
+    font-size: x-large;
+    float: right;
+    font-style: inherit;
+    text-align: center;
+}
+
+.navitem, .navitem_active{
+    padding-right: 30px;
+    color: #9E0005
+}
+
+.backimage {
+    height:90vh;
+    width: auto;
+    background: url('https://i.etsystatic.com/5295659/r/il/3c87a0/1895126814/il_fullxfull.1895126814_m3kl.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.main_page {
+    position: absolute;
+    text-align: center;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.personality {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.goal{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.myphoto{
+    width: auto;
+    height: 300px; 
+}
+
+.quote {
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+
+
+
